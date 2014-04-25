@@ -1,0 +1,3 @@
+[submodule "dntcore"]
+	path = dntcore
+	url = https://github.com/rockyx/dntcore.git

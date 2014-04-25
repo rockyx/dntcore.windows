@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dntcore\dnt\core\xArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xSystemDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xAtomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xByteArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xDiskInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xJNIMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xSerialport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xSerialport_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dntcore\dnt\core\xStringList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dntcore\dnt\core\xArray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xAtomic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xUtils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xTimer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xDiskInfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xString.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xMutex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xJNIMethods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xSerialport.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xStringList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dntcore\dnt\core\xSerialportWin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dntcore.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
